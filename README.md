@@ -1,7 +1,7 @@
 # wren-complex
 A module that implements complex numbers for the [Wren programming language](https://munificent.github.io/wren/).
 
-```wren
+```dart
     import "complex" for Complex
     var zero = Complex.new()
     zero.toString // "0 + 0i"
