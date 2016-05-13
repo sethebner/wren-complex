@@ -14,4 +14,6 @@ A module that implements complex numbers for the [Wren programming language](htt
 ## Running tests
 To run tests, run this:
 
+```dart
     wren test/test.wren
+```
