@@ -52,7 +52,7 @@ Please.equal(c1 * -2, Complex.new(c1.real * -2, c1.imag * -2))
 Please.equal(zero / zero, zero)
 Please.equal(zero / c1, zero)
 Please.equal(zero / c2, zero)
-Please.equal(c1 / c2, Complex.new(-4/7, -3/7)) /* FIXME */
+Please.equal(c1 / c2, Complex.new(-4/7, -3/7))
 Please.equal(zero / 3, zero)
 Please.equal(c1 / 2, Complex.new(c1.real / 2, c1.imag / 2))
 Please.equal(c1 / 2, c1 * (1/2))
